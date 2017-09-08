@@ -1,0 +1,16 @@
+
+The source of the Fair LTLR model checker and the LMC model checker are in the 
+directory src/ModelChecker. These components are developed in C++11, and thus
+require version 4.8 of gcc or later, with CXXFLAGS option -std=c++11. 
+
+In addtion, the following files define the interfaces of the model checkers.
+
+- src/Main/ltlr-checker.maude : Core Maude interface of LTLR
+- src/Main/ltlr-interface.maude : Full Maude interface of LTLR
+- src/Main/symbolic-checker.maude : Full Maude interface of LMC
+
+The Full Maude interfaces (the first and the last) also need Full Maude 2.7. 
+Some examples are provided in the directories src/Main/ltlr-examples and 
+src/Main/symbolic-examples, respectively.
+
+Author: Kyungmin Bae <kbae4@illinois.edu>
