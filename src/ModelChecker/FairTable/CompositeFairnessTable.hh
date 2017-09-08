@@ -10,6 +10,9 @@
 #include <memory>
 #include "AbstractFairnessTable.hh"
 
+#include <vector>
+using std::vector;
+
 namespace modelChecker {
 
 class CompositeFairnessTable: public AbstractFairnessTable

@@ -11,6 +11,9 @@
 #include "protectedDagNodeSet.hh"
 #include "Interface/PropInterpreter.hh"
 
+#include <vector>
+using std::vector;
+
 namespace modelChecker {
 
 class PropositionTable: private ProtectedDagNodeSet

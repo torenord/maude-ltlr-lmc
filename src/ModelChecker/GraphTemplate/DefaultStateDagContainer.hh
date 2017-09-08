@@ -10,6 +10,9 @@
 #include "hashConsSet.hh"
 #include "dagNode.hh"
 
+#include <vector>
+using std::vector;
+
 namespace modelChecker {
 
 class DefaultStateDagContainer

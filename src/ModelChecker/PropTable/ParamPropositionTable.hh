@@ -12,6 +12,9 @@
 #include "PropTable/PropositionTable.hh"
 #include "ParamSubstitution.hh"
 
+#include <vector>
+using std::vector;
+
 namespace modelChecker {
 
 class ParamPropositionTable: public PropositionTable
